@@ -1,0 +1,55 @@
+.choice {
+  text-align: center;
+}
+
+.choice-top {
+  background: #070716;
+  padding-top: 40px;
+}
+
+.choice-bottom {
+  background: url(../../img/bg/choise-bottom-bg.png) center center/cover
+    no-repeat;
+}
+
+.choice-subtitle {
+  color: #fff;
+  font-size: 17px;
+}
+
+.choice-circle {
+  width: 550px;
+  height: 250px;
+  background: $main-color;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.choice-circle-img {
+  width: 115%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -140px;
+}
+
+.choice-bottom {
+  height: 300px;
+}
+
+.choice-circle-title {
+  font-size: 30px;
+  color: #fff;
+}
+
+.choice-circle-text {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.choise-bottom-text {
+  padding-top: 200px;
+}
