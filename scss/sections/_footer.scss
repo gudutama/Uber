@@ -1,29 +1,32 @@
 .footer {
+  padding: 15px;
+}
+
+.footer-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 0;
 }
 
-.footer-circle-items {
+.footer-socials {
   display: flex;
 }
 
-.footer-circle-item {
+.footer-social-item {
   height: 35px;
   width: 35px;
   border-radius: 50%;
   background: #000;
   display: flex;
+  text-decoration: none;
+  color: #fff;
   justify-content: center;
   align-items: center;
   margin: 0 5px;
-
-  .circle {
-    text-decoration: none;
-    span {
-      color: #fff;
-    }
+  transition: 0.3s;
+  &:hover {
+    background: #fff;
+    color: #000;
   }
 }
 
@@ -31,26 +34,42 @@
   width: 300px;
   height: 7px;
   background-color: #1fbad6;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
-.footer-text-items {
-  width: 300px;
+.footer-menu {
   flex-wrap: wrap;
   text-align: center;
+  margin-left: 110px;
 }
 
-.black-text {
-  color: black;
-  text-decoration: none;
+.footer-menu-top {
   font-size: 15px;
   text-transform: uppercase;
+  display: flex;
+  margin-bottom: 10px;
+  ul {
+    a {
+      text-decoration: none;
+      color: black;
+      margin: 0 20px;
+    }
+  }
 }
 
-.grey-text {
-  color: gray;
-  text-decoration: none;
+.footer-menu-bottom {
   font-size: 11px;
   text-transform: uppercase;
+  display: flex;
+  margin-bottom: 10px;
+  ul {
+    a {
+      color: gray;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  }
 }
 
 .language {

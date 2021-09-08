@@ -1,6 +1,5 @@
 .choice {
   text-align: center;
-  padding-bottom: 200px;
 }
 
 .choice-top {
@@ -9,8 +8,8 @@
 }
 
 .choice-bottom {
-  background: url(../../img/bg/choise-bottom-bg.png) center center/cover
-    no-repeat;
+  background: url(../img/bg/choise-bottom-bg.png) center center/cover no-repeat;
+  padding: 200px 0;
 }
 
 .choice-subtitle {
@@ -45,8 +44,4 @@
 .choice-circle-text {
   text-transform: uppercase;
   font-size: 15px;
-}
-
-.choise-bottom-text {
-  margin-top: 300px;
 }
