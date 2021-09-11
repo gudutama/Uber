@@ -70,24 +70,3 @@
 @import "sections/footer";
 @import "media";
 
-.box {
-  height: 1500px;
-  width: 100%;
-  background: cornflowerblue;
-  display: flex;
-  justify-content: space-between;
-}
-
-.item-1 {
-  width: 45%;
-  height: 100%;
-  background: crimson;
-}
-
-.item-2 {
-  width: 45%;
-  height: 300px;
-  background: darkcyan;
-  position: sticky;
-  top: 70px;
-}

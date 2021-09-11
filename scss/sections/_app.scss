@@ -10,7 +10,9 @@
 .app-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 20px;
+  grid-gap: 20px;
+  justify-content: space-around;
 }
 
 .app-item {
@@ -31,7 +33,7 @@
   top: 70px;
 }
 
-.item{
+.item {
   justify-content: center;
   align-items: center;
 }
